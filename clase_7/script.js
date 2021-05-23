@@ -10,3 +10,9 @@ let num = 0;
 //     num+=1;
 //     console.log(`${num}`);
 // } while (num<10);
+let pass = '12345';
+
+do {
+    contrasena = prompt("Ingresa Contraseña: ");
+} while (pass!=contrasena);
+alert("Bienvenido!!!");
