@@ -22,4 +22,4 @@ Accede al primer elemento que conincida con selector CSS */
 
 
 const paragraphArray = Array.from(document.querySelectorAll('.paragraph'));
-paragraphArray.map(p=>p.style.color='blue');
+paragraphArray.map(p=>p.style.color='green');
