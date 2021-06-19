@@ -21,4 +21,4 @@ const name = document.getElementById('name');
 
 // title.classList.add('main-title');
 title.classList.remove('main-title');
-name.value = 'Yo siempre quise ser bichote'
+name.value = 'Algo para mostrar'
