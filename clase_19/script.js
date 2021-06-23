@@ -1,5 +1,6 @@
 const form = document.getElementById('form');
 const input = document.getElementById('input');
+const button = document.getElementById('button');
 
 // input.addEventListener('keyup',(e)=>{
 // console.log(e);
@@ -8,9 +9,6 @@ const input = document.getElementById('input');
 // addEventListener('click',(e)=>{
 //     console.log(e.clientX,e.clientY);
 // })
-input.addEventListener('keyup',(e)=>{
-    if(e.key === 'x'){
-        console.log(e.key); 
-    }
-
+button.addEventListener('click',(e)=>{
+        console.log(e.target);
     });
